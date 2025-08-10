@@ -111,8 +111,8 @@ header {
     position: relative;
     width: 100%;
     z-index: 199 !important;
-    line-height: 2;
-    height: 80px;
+     height: 80px;
+     margin-bottom: 20px;
 
 }
 
@@ -282,7 +282,7 @@ header {
         font-family: var(--font-poppins);
         text-align: right !important;
 }
-    .box-left h2{
+   .container .main-box .box-left h2{
         margin-bottom: .5rem;
         font-size: 34px;
         font-weight: 800;
@@ -290,7 +290,7 @@ header {
         color: #1f1f1f;
     }
 
-    .box-left p{
+   .container .main-box .box-left p{
         margin-bottom: 1rem;
         font-size: 14px;
         font-weight: 400;
@@ -298,7 +298,7 @@ header {
         color: #777;
     }
 
-    .box-left a{
+   .container .main-box .box-left a{
         margin-bottom: 6px;
         padding: 12px 26px;
         font-size: 12px;
@@ -311,7 +311,7 @@ header {
         transition: all .3s ease;
     }
 
-    .box-left a:hover{
+    .container .main-box .box-left a:hover{
         background-color: #333;
     }
 /* :)  BURNOUT SECTION END (: */
@@ -326,7 +326,7 @@ header {
         text-align: left !important;
 
 }
-   .box-right h2{
+   .container .main-box .box-right h2{
         margin-bottom: .5rem;
         font-size: 34px;
         font-weight: 800;
@@ -334,7 +334,7 @@ header {
         color: #1f1f1f;
     }
 
-    .box-right p{
+    .container .main-box .box-right p{
         margin-bottom: 1rem;
         font-size: 14px;
         font-weight: 400;
@@ -342,7 +342,7 @@ header {
         color: #777;
     }
 
-    .box-right a{
+    .container .main-box .box-right a{
         margin-bottom: 6px;
         padding: 12px 26px;
         font-size: 12px;
@@ -355,7 +355,7 @@ header {
         transition: all .3s ease;
     }
 
-    .box-right a:hover{
+   .container .main-box .box-right a:hover{
         background-color: #333;
     }
 /* :)  OVER SECTION END (: */
@@ -430,9 +430,9 @@ header {
         color: #FFC300;
         font-size: 14px;
     }
-    .container a:last-child:hover{
+    /* .container a:last-child:hover{
         color: #007bff;
-    }
+    } */
     /* shop-products section end */
     /* hot-favorite section start */
     .hot-favorite{
